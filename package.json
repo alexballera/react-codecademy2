@@ -1,8 +1,8 @@
 {
-  "name": "react-codecademy",
+  "name": "react-codecademy2",
   "version": "1.0.0",
-  "description": "Curso de React de Codecademy",
-  "main": "index.js",
+  "description": "Curso React 2 Codecademy",
+  "main": "gulpfile.babel.js",
   "scripts": {
     "lint": "standard",
     "test": "npm run lint",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexballera/react-codecademy.git"
+    "url": "git+https://github.com/alexballera/react-codecademy2.git"
   },
   "author": "Alex Ballera <alexballera@gmail.com> (http://alexballera.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexballera/react-codecademy/issues"
+    "url": "https://github.com/alexballera/react-codecademy2/issues"
   },
-  "homepage": "https://github.com/alexballera/react-codecademy#readme",
+  "homepage": "https://github.com/alexballera/react-codecademy2#readme",
   "devDependencies": {
     "babel-plugin-transform-regenerator": "^6.22.0",
     "babel-preset-latest": "^6.24.0",
