@@ -1,0 +1,46 @@
+// Colores
+$white: #fff;
+$grey: #808080;
+$orange: #ffa500;
+
+%placeholder {
+  ::-webkit-input-placeholder {
+    color: $white;
+  }
+
+  :-moz-placeholder {
+    color: $white;
+  }
+
+  ::-moz-placeholder {
+    color: $white;
+  }
+
+  :-ms-input-placeholder {
+    color: $white;
+  }
+}
+
+%boton {
+  background-color: transparent;
+  border: solid 1px $white;
+  color: $white;
+  padding: .3rem;
+  text-align: center;
+  @media (min-width: 992px) {
+    padding: .5rem 2rem;
+  }
+
+  &:hover {
+    color: $white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &:visited,
+  &:focus,
+  &:active {
+    color: $white;
+    text-decoration: none;
+  }
+}
