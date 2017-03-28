@@ -1,7 +1,8 @@
 # Curso de React de Codecademy Con Materializecss Y Font Awesome
 
-## Instalamos Bootstrap
-Instalamos desde la terminal:
+## Instalamos MaterializeCSS
+Debemos agregar la fuente *ROBOTO*  
+Instalamos *Materializecss* con **NPM** desde la terminal:
 
     npm i -D materialize-css
 
