@@ -1,3 +1,6 @@
+/**
+ * stateless components
+ */
 'use strict'
 
 import React from 'react'
