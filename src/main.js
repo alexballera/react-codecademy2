@@ -1,7 +1,3 @@
-global.jQuery = require('jquery')
-import tether from 'tether'
-global.Tether = tether
-require('bootstrap')
 import app from './app.jsx'
 
 (() => {

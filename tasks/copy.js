@@ -8,8 +8,8 @@ gulp.task('copy', () => {
     .pipe(gulp.dest('./public/fonts'))
   // gulp.src(['./src/styles/vendors/**'])
   //   .pipe(gulp.dest('./public/styles/vendors'))
-  // gulp.src(['./src/js/vendors/**'])
-  //   .pipe(gulp.dest('./public/js/vendors'))
+  gulp.src(['./src/js/vendors/**'])
+     .pipe(gulp.dest('./public/js/vendors'))
   gulp.src([
     './src/*.txt',
     './src/sitemap.*',
