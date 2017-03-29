@@ -2,7 +2,6 @@
 
 ## Instalamos MaterializeCSS
 
-Agregamos la fuente *ROBOTO*  
 Instalamos *Materializecss* y *JQuery* con **NPM** desde la terminal:
 
     npm i -S jquery materialize-css
@@ -23,6 +22,8 @@ Agregamos JQuery y Materializecss.js en js/vendors
 
     $ npm i -S react-materialize
 
+## Agregamos la Fuente Roboto
+[https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto)
 ## Instalamos Font Awesome
 Instalamos desde la terminal:
 
