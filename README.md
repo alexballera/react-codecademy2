@@ -46,7 +46,7 @@ Usamos con SASS:
 
     <tag style={{color: '#8e24aa'}}></tag>
 
-### Declarando variable
+### Declarando Variable
 
     var styles = {
       backgroundColor: '#d81b60',
@@ -55,3 +55,29 @@ Usamos con SASS:
     }
     <tag style={styles}></tag>
 
+### Mediante Archivo Externo
+
+**Style.jsx**
+
+    var blue = '#2196f3'
+    var red = '#d81b60'
+    
+    module.exports = {
+      blue: blue,
+      red: red
+    }
+
+**Importamos el archivo Style.jsx**
+
+    import style from './Style.jsx'
+
+**Declaramos la variable de estilos**
+
+    var styleTag = {
+      backgroundColor: style.blue,
+      color: style.red
+    }
+
+**Agregamos los estilos**
+
+    <tag style={styleTag}></tag>
