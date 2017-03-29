@@ -8,7 +8,8 @@ var Sibling = React.createClass({
     var name = this.props.name
     var styles = {
       backgroundColor: '#d81b60',
-      color: '#2196f3'
+      color: '#2196f3',
+      marginTop: 50 // por defecto no se coloca px
     }
     return (
       <Row>
