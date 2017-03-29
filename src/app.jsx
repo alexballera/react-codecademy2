@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom'
 import Child from './components/Child.jsx'
 import Sibling from './components/Sibling.jsx'
 import { Row } from 'react-materialize'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import MaterialUIReactComponent from './components/MaterialUIReactComponent.jsx'
 
 export default () => {
   var Parent = React.createClass({
@@ -23,6 +25,9 @@ export default () => {
             onChange={this.changeName}
           />
           <Sibling name={this.state.name} />
+          <MuiThemeProvider>
+            <MaterialUIReactComponent />
+          </MuiThemeProvider>
         </Row>
       )
     }
