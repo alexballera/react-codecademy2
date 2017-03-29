@@ -4,6 +4,7 @@
 'use strict'
 
 import React from 'react'
+import { Button, Row, Col, Icon } from 'react-materialize'
 
 var Child = React.createClass({
   handleChange: function (e) {
@@ -12,14 +13,22 @@ var Child = React.createClass({
   },
   render: function () {
     return (
-      <div>
+      <Row>
         <h1>Mi nombre es {this.props.name}</h1>
-        <select id='great-names' onChange={this.handleChange}>
-          <option value='Alexander'>Alexander</option>
-          <option value='Jose'>Jose</option>
-          <option value='Ballera'>Ballera</option>
-        </select>
-      </div>
+        <Col s={6}>
+          <select id='great-names' onChange={this.handleChange}>
+            <option value='Alexander'>Alexander</option>
+            <option value='Jose'>Jose</option>
+            <option value='Ballera'>Ballera</option>
+          </select>
+        </Col>
+        <Col s={3}>
+          <Button waves='light'><Icon center>add</Icon></Button>
+        </Col>
+        <Col s={3}>
+          <Button waves='light'><Icon right>remove</Icon></Button>
+        </Col>
+      </Row>
     )
   }
 })

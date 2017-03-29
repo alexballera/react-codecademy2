@@ -16,6 +16,13 @@ Agregamos JQuery y Materializecss.js en js/vendors
     cp node_modules/materialize-css/dist/js/materialize.min.js src/js/vendors/
     cp node_modules/jquery/dist/jquery.min.js src/js/vendors/
 
+## Instalamos react-materialize
+[https://react-materialize.github.io/](https://react-materialize.github.io/)  
+[https://github.com/react-materialize/react-materialize](https://github.com/react-materialize/react-materialize)
+
+
+    $ npm i -S react-materialize
+
 ## Instalamos Font Awesome
 Instalamos desde la terminal:
 
