@@ -3,6 +3,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Child from './components/Child.jsx'
+import Sibling from './components/Sibling.jsx'
+import { Row } from 'react-materialize'
 
 export default () => {
   var Parent = React.createClass({
@@ -16,9 +18,12 @@ export default () => {
     },
     render: function () {
       return (
-        <Child
-          name={this.state.name} onChange={this.changeName}
-        />
+        <Row>
+          <Child
+            onChange={this.changeName}
+          />
+          <Sibling name={this.state.name} />
+        </Row>
       )
     }
   })

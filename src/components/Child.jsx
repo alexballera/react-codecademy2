@@ -14,9 +14,8 @@ var Child = React.createClass({
   render: function () {
     return (
       <Row>
-        <h1>Mi nombre es {this.props.name}</h1>
         <Col s={6}>
-          <select id='great-names' onChange={this.handleChange}>
+          <select id='great-names'onChange={this.handleChange}>
             <option value='Alexander'>Alexander</option>
             <option value='Jose'>Jose</option>
             <option value='Ballera'>Ballera</option>
