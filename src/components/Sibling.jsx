@@ -8,7 +8,7 @@ var Sibling = React.createClass({
     var name = this.props.name
     return (
       <Row>
-        <h1>Mi nombre es {name}</h1>
+        <h1 style={{color: '#8e24aa'}}>Mi nombre es {name}</h1>
         <h2>Don't you think {name} is the prettiest name ever?</h2>
         <h2>Sure am glad that my parents picked {name}!</h2>
       </Row>

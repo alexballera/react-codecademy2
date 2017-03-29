@@ -31,3 +31,9 @@ Instalamos desde la terminal:
 Usamos con SASS:
 
     @import '../node_modules/font-awesome/scss/font-awesome';
+
+## Agregando Estilos
+### Inline:
+
+    <tag style={{color: '#8e24aa'}}></tag>
+
