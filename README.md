@@ -22,6 +22,14 @@ Agregamos JQuery y Materializecss.js en js/vendors
 
     $ npm i -S react-materialize
 
+## Instalamos Material-UI
+[http://www.material-ui.com/#/](http://www.material-ui.com/#/)  
+[https://github.com/callemall/material-ui](https://github.com/callemall/material-ui)   
+[https://github.com/zilverline/react-tap-event-plugin](https://github.com/zilverline/react-tap-event-plugin)
+
+    $ npm i -S react-tap-event-plugin material-ui
+
+
 ## Agregamos la Fuente Roboto
 [https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto)
 ## Instalamos Font Awesome
