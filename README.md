@@ -46,3 +46,12 @@ Usamos con SASS:
 
     <tag style={{color: '#8e24aa'}}></tag>
 
+### Declarando variable
+
+    var styles = {
+      backgroundColor: '#d81b60',
+      color: '#2196f3',
+      marginTop: 50 // por defecto no se coloca px
+    }
+    <tag style={styles}></tag>
+
