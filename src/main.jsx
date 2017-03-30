@@ -1,4 +1,4 @@
-import app from './app.jsx'
+import app from './components/app.jsx'
 
 (() => {
   'use strict'
