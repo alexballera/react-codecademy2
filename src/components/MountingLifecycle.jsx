@@ -6,12 +6,15 @@ import React from 'react'
 
 var MountingLifecycle = React.createClass({
   componentWillMount: function () {
-    alert('Primera vez MountingLifecycle!')
+    console.log('Primera vez MountingLifecycle!')
   },
-  render: function () {
-    alert('Renderizando MountingLifecycle!')
 
-    alert('Terminado de Renderizar MountingLifecycle!!!!!!!');
+  componentDidMount: function () {
+    console.log('Terminado de Renderizar MountingLifecycle!')
+  },
+
+  render: function () {
+    console.log('Renderizando MountingLifecycle!')
 
     return (
       <h1 style={{color: this.props.color}} >ESTE ES EL EJEMPLO DE MOUNTING LIFECYCLE</h1>
