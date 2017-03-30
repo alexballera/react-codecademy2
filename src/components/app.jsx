@@ -10,6 +10,7 @@ import Sibling from './Sibling.jsx'
 import Formulario from './Formulario.jsx'
 import StatelessFunctionalComponent from './StatelessFunctionalComponent.jsx'
 import MountingLifecycle from './MountingLifecycle.jsx'
+import ShouldComponentUpdate from './shouldComponentUpdate.jsx'
 
 export default () => {
   var Parent = React.createClass({
@@ -33,22 +34,27 @@ export default () => {
           </MuiThemeProvider>
           <StatelessFunctionalComponent />
           <Formulario />
+          <ShouldComponentUpdate />
         </Row>
       )
     }
   })
-  ReactDOM.render(
-    <Parent />,
-    document.getElementById('app')
-  )
+  setTimeout(() => {
+    console.log('Pasaron 3 seg')
+    ReactDOM.render(
+      <Parent />,
+      document.getElementById('app')
+    )
+  }, 3000)
   ReactDOM.render(
     <MountingLifecycle color='red' />,
     document.getElementById('MountingLifecycle')
   )
-  setTimeout(function () {
+  setTimeout(() => {
+    console.log('Pasaron 7 seg')
     ReactDOM.render(
       <MountingLifecycle color='green' />,
       document.getElementById('MountingLifecycle')
     )
-  }, 3000)
+  }, 7000)
 }
