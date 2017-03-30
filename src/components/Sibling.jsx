@@ -4,8 +4,8 @@ import React from 'react'
 import {Row} from 'react-materialize'
 import style from './Style.jsx'
 
-class Sibling extends React.Component {
-  render () {
+var Sibling = React.createClass({
+  render: function () {
     var name = this.props.name
     var styles = {
       backgroundColor: '#d81b60',
@@ -25,6 +25,6 @@ class Sibling extends React.Component {
       </Row>
     )
   }
-}
+})
 
 module.exports = Sibling
